@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Poppins:wght@300;400;700&display=swap");
+
+ul li {
+  list-style: none;
+}
+@media screen and (max-width: 1280px) {
+  .button {
+    padding: 10px;
+  }
+}
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.menu {
+  float: right;
+}
+
+header nav .container {
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 20%;
+  margin-top: 25px;
+}
+
+#content {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
+#home {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: right;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 0px;
+  color: white;
+  width: 100%;
+  line-height: 50px;
+  align-items: left;
+  background-color: black;
+}
+
+h1 {
+  font-family: "comic sans ms";
+  width: 200%;
+  line-height: 45px;
+  padding: 10px 10px;
+}
+
+p {
+  color: black;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+a.tbl-biru {
+  background: lightblue;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover {
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+
+article {
+  width: 100%;
+  text-align: center;
+  background-color: #ffafcc;
+}
+
+aside {
+  width: 100%;
+  text-align: left;
+  font-size: 25px;
+  justify-content: center;
+  background-color: #bde0fe;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  background: orange;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
